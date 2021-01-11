@@ -1,0 +1,10 @@
+
+apple_binary(
+  name = 'MyApp',
+  srcs = glob(['*.swift']),
+  deps = [ 
+    '//Packages:GoogleUtilities_UserDefaults', 
+#    '//Packages:FirebaseAuth',
+    ],
+  modular = True,
+)

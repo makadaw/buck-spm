@@ -1,6 +1,10 @@
 .DS_Store
 /.build
 Example/.build
+Example/.my-build
+Example/Packages
+Example/buck-out
+Example/.buckd
 /Packages
 /*.xcodeproj
 xcuserdata/
